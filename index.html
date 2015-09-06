@@ -1,1 +1,52 @@
-The Trianlgle project (Production)
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.5/paper/bootstrap.min.css">
+</head>
+<body>
+	<div class="container" ng-app="TriangleApp" ng-controller="TriangleController" >
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="text-center"> Triangle Application </h1>
+				<div class="col-md-6 panel">
+					<div class="alert alert-success">
+						<p>{{ result().type }}</p>
+					</div>
+					<!-- triangle image is goes here -->
+					<div class="well" >
+						<img src="{{ result().img }}">
+					</div>
+				</div>
+				<div class="col-md-6 panel ">
+					<div class="alert alert-info">
+						เพียงแค่ใส้ด้านให้ครบรูปทางด้านซ้ายจะเปลี่ยนเอง พร้อมชนิดของสามเหลี่ยม
+					</div>
+					<label>ด้านที่ 1</label>
+					<input type="number" class="form-control" ng-model="a">
+					<label>ด้านที่ 2</label>
+					<input type="number" class="form-control" ng-model="b">
+					<label>ด้านที่ 3</label>
+					<input type="number" class="form-control" ng-model="c">
+					<br/>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<!-- Math -->
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjs/2.2.0/math.min.js"></script>
+
+	<script type="text/javascript" src="bower_components/vivus/dist/vivus.min.js" ></script>
+	<script type="text/javascript" src="app.js" ></script>
+</body>
+</html>
