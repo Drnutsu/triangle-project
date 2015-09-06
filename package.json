@@ -1,0 +1,18 @@
+{
+  "name": "kyco-gulp",
+  "version": "1.0.0",
+  "description": "kyco-gulp demo",
+  "main": "index.html",
+  "private": "true",
+  "dependencies": {
+    "beepbeep": "~1.2.0",
+    "gulp": "~3.9.0",
+    "gulp-livereload": "~2.1.0",
+    "gulp-plumber": "~0.6.4",
+    "gulp-ruby-sass": "~0.5.0",
+    "gulp-uglifyjs": "~0.4.2",
+    "gulp-util": "~2.2.20",
+    "lodash.defaults": "^3.1.2",
+    "mathjs": "~2.2.0"
+  }
+}
