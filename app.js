@@ -1,6 +1,5 @@
 //triangle Project
-<<<<<<< HEAD
-=======
+
 angular.module('TriangleApp', [])
 	.controller('TriangleController', function($scope) {
 		$scope.result = function() {
@@ -28,4 +27,3 @@ angular.module('TriangleApp', [])
 		};
 
 	});
->>>>>>> develop
